@@ -1,15 +1,32 @@
+/* handle unstyled fonts */
+.wf-loading {
+  opacity: 0;
+
+}
+ 
+.ie.wf-loading {
+  visibility: hidden;
+}
+ 
+.ie.wf-active {
+  visibility: visible;
+}
+
 html,
 body {
   height: 100%;
   margin:0
 }
 
+
+
 body {
   text-align: right;
   color: #fff;
-  font-family: 'Raleway', sans-serif;
+  font-family: 'jubilat', 'Helvetica Neue', Helvetica, Arial, sans-serif;;
+  font-weight: 400;
   font-size:15px;
-  background: #999 url(https://68.media.tumblr.com/483e268b5a51e25bc7285a998673caff/tumblr_oklucnlAfL1rp4pkco1_1280.jpg) center no-repeat;
+  background: #999 url("../images/header02.jpg") center no-repeat;
   background-size: cover;
   overflow: hidden;
   padding-right: 50px
@@ -25,15 +42,32 @@ body:before {
   height: 100%;
   z-index: -1
 }
+
+section{
+	-webkit-transition: all 0.4s;
+    transition: all 0.4s;
+}
+
+section.bio{
+	
+}
+
 a{
   color:inherit
+}
+.bio p{
+	font-size: 20px;
+}
+.bio p span{
+	font-style: italic;
 }
 h1 {
   width: 100%;
   margin: 40vh 0 3vh 0;
-  font-family: 'Raleway', sans-serif;
+  font-family: 'brandon-grotesque', sans-serif;;
   font-weight: 100;
   font-size: 3em;
+  text-transform: uppercase;
   transition:all 0.4s
 }
 h1:hover{
@@ -88,6 +122,11 @@ i {
   color: #0c6;
   border-color:inherit
 }
+
+section.clients{
+	display: inline-flex;
+}
+.clients a{}
 
 footer{
   font-size: 0.7em;  
