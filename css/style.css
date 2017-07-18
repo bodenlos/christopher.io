@@ -57,15 +57,21 @@ a{
 }
 .bio p{
 	font-size: 20px;
+	font-family: "Whitney SSm A", "Whitney SSm B";
+	font-style: normal;
+	font-weight: 300;
 }
 .bio p span{
-	font-style: italic;
+	font-family: "Surveyor SSm A", "Surveyor SSm B";
+	font-style: normal;
+	font-weight: 300;
 }
 h1 {
   width: 100%;
   margin: 40vh 0 3vh 0;
-  font-family: 'brandon-grotesque', sans-serif;;
-  font-weight: 100;
+  font-family: "Tungsten Rounded A", "Tungsten Rounded B", sans-serif;
+  font-style: normal;
+  font-weight: 600;
   font-size: 3em;
   text-transform: uppercase;
   transition:all 0.4s
