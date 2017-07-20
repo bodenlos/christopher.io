@@ -561,7 +561,7 @@ i {
 
 .fa {
   display: inline-block;  
-  color: inherit;
+  color: #00f9d7;
   text-decoration: none;
   padding-top: 9px;
   width: 40px;
@@ -571,14 +571,14 @@ i {
   margin-left: 1em;
   background: rgba(0, 0, 0, 0);
   transition: all 0.4s;
-  border:1px solid;
+  border:1px dashed;
   border-radius: 100%;
   border-color: rgba(0,0,0,0);
 }
 
 .fa:hover, .fa:active {
-  color: #00f9d7;  
-  border-color:#00f9d7; 
+  color: rgba(64, 211, 244, 1);  
+  border-color:rgba(225, 225, 167, 1);
   background: rgba(107, 107, 107, 0);
  }
 
@@ -606,11 +606,12 @@ footer a{
   color: #00f9d7;
   text-decoration: none;
   font-weight: bold;
-  transition: border 0.4s;
-  border-bottom: 1px solid rgba(0, 249, 215, 0);
+  transition: all 0.4s;
+  border-bottom: 1px dashed rgba(0, 249, 215, 1);
 }
 footer a:hover, footer a:active{
-    border-bottom: 1px solid rgba(0, 249, 215, 1);
+    color: rgba(64, 211, 244, 1);
+    border-bottom: 1px dashed rgba(225, 225, 167, 1);
 }
 
 
