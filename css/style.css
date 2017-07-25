@@ -512,27 +512,29 @@ body:after {
 
 header{
   font-size: 0.8em;
-  font-family: "Surveyor SSm A", "Surveyor SSm B";
-  font-style: italic;
-  font-weight: 300;
+  font-family: "Ringside Compressed SSm A", "Ringside Compressed SSm B", sans-serif;
+	font-style: normal;
+	font-weight: 300;
   text-transform: uppercase;
   text-align: center;  
-  color: #fdfdfd;  background:rgba(0,0,0,0.3); 
+  color: #fdfdfd;  
+  background:rgba(0,0,0,0.1); 
   width: 100vw;  
-  position: absolute; 
+  position: absolute;
   top: 0px;  
   padding:0.8em 0;
 }
 
 header a{
-  color: rgba(64, 211, 244, 1);
-  border-bottom: 1px dashed rgba(225, 225, 167, 1);
+  display:inline-flex;
+  margin: 0 1em 0 1em;
+  color: #fdfdfd;
+  /*border-bottom: 1px dashed rgba(225, 225, 167, 1);*/
   text-decoration: none;
-  font-weight: bold;
   transition: all 0.4s;
 }
 
-header a:hover, footer a:active{
+header a:hover, header a:active{
   color: #00f9d7;
   border-bottom: 1px dashed rgba(0, 249, 215, 1);  
 }
