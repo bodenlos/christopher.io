@@ -480,7 +480,7 @@ body {
   background: #999 url("../images/header03.jpg") center center no-repeat;
   background-size: cover;
   overflow: hidden;
-  padding-right: 50px;
+  padding-right: 3em;
   z-index:1;
 }
 
@@ -694,7 +694,61 @@ body.about{
 .about .bio a:hover, .about .bio a:active{
   background: rgba(0,0,0,0.1); 
 }
-   
 
-/**/
 
+/* media queries */
+
+@media only screen and (max-width : 768px) {
+  
+  body{
+    padding-right: 1.5em;
+  }
+ 
+  body.about{
+    padding-right:0;
+  }
+  
+  .about .bio{
+    width: 86vw;
+    margin: 0 auto;  
+  }
+  
+  .about .intro, .about .bio.social{
+    padding: 1em 1em .5em 1em;
+    width: 86vw;
+  }
+  
+  footer{
+    line-height: normal;
+  }
+  
+  body.about footer{
+    display: none;
+  }
+}
+
+@media only screen and (max-width : 480px) {
+  body{
+    overflow: scroll;
+    background-attachment: fixed;
+  }
+  
+  body:before, body:after{
+    bottom:-6em;
+  }
+}
+
+@media only screen and (max-width : 320px) {
+  body{
+    font-size: 1em;
+  }
+
+  .about .bio.social{
+    margin-bottom: 2em;  }
+  
+  .fa{
+    margin-left: 0;
+    
+  }
+  
+}

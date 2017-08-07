@@ -18,7 +18,10 @@ window.onload = function() {
     
     document.getElementById("email").href="mailto:"+link;
     document.getElementById("email_footer").href="mailto:"+link;
-    document.getElementById("email_inline").href="mailto:"+link;
+    
+    if(document.getElementById("email_inline") !== null){
+      document.getElementById("email_inline").href="mailto:"+link
+    }
 
 }
 
