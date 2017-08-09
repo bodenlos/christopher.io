@@ -16,13 +16,13 @@ window.onload = function() {
         }
     }
     
-    document.getElementById("email").href="mailto:"+link;
-    document.getElementById("email_footer").href="mailto:"+link;
+    var email_links = document.getElementsByClassName('email');
     
-    if(document.getElementById("email_inline") !== null){
-      document.getElementById("email_inline").href="mailto:"+link
+    for(var i = 0; i < email_links.length; i++) {
+      var current_link = email_links[i];
+      current_link.href="mailto:"+link;
     }
-
+    
 }
 
 
