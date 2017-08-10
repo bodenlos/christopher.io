@@ -411,9 +411,9 @@ FileETag None
 
 
   # JavaScript
-    ExpiresByType application/javascript                "access plus 1 year"
+    ExpiresByType application/javascript                "access plus 1 week"
     ExpiresByType application/x-javascript              "access plus 1 year"
-    ExpiresByType text/javascript                       "access plus 1 year"
+    ExpiresByType text/javascript                       "access plus 1 week"
 
 
   # Manifest files
@@ -425,10 +425,10 @@ FileETag None
   # Media files
     ExpiresByType audio/ogg                             "access plus 1 month"
     ExpiresByType image/bmp                             "access plus 1 month"
-    ExpiresByType image/gif                             "access plus 1 month"
-    ExpiresByType image/jpeg                            "access plus 1 month"
-    ExpiresByType image/png                             "access plus 1 month"
-    ExpiresByType image/svg+xml                         "access plus 1 month"
+    ExpiresByType image/gif                             "access plus 1 week"
+    ExpiresByType image/jpeg                            "access plus 1 week"
+    ExpiresByType image/png                             "access plus 1 week"
+    ExpiresByType image/svg+xml                         "access plus 1 week"
     ExpiresByType image/webp                            "access plus 1 month"
     ExpiresByType video/mp4                             "access plus 1 month"
     ExpiresByType video/ogg                             "access plus 1 month"
@@ -462,6 +462,6 @@ FileETag None
 
 # BEGIN REDIRECTS
 Redirect 301 /favicon.ico /favicon.png
-Redirect 301 /about /
+Redirect 301 /linkedin https://www.linkedin.com/in/bodenlos/
 
 # END REDIRECTS
