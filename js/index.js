@@ -1,6 +1,8 @@
 
 window.onload = function() {
-
+    
+    // populate email site-wide
+    
     coded = "39ddc@I3Drz0cE39D.rc";
     key = "YznZ4P8SqcdTQwm6r7thuH2XjCWeVIMgBOpbDN03ykJsFfR9GKaol1E5vUiLxA";
     shift=coded.length;
