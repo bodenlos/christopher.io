@@ -1,0 +1,22 @@
+{
+  "name": "christopher.io",
+  "version": "1.1.0",
+  "description": "Personal site",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bodenlos/christopher.io.git"
+  },
+  "author": "Chris Bodenlos",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bodenlos/christopher.io/issues"
+  },
+  "homepage": "https://github.com/bodenlos/christopher.io#readme",
+  "devDependencies": {
+    "gulp": "^3.9.1"
+  }
+}
